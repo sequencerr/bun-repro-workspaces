@@ -1,0 +1,10 @@
+{
+	"name": "asd",
+	"type": "module",
+	"scripts": {
+		"postinstall": "node ../node_modules/puppeteer/lib/esm/puppeteer/node/cli.js browsers install chrome"
+	},
+	"dependencies": {
+		"puppeteer": "^22.12.1"
+	}
+}
